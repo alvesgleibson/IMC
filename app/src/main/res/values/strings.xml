@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">IMC Application</string>
+    <string name="title_app">Calculadora Saudável</string>
+    <string name="subtitle_app">Sua saúde primeiro</string>
+    <string name="bt_massa_corporal">Índice de massa corporal (IMC)</string>
+    <string name="bt_nece_calorica">Necessidades Calóricas Diárias</string>
+</resources>

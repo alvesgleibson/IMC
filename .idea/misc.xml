@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidPrograms/IMCApplication/app/src/main/res/drawable-v24/bt_blue.xml" value="0.3611111111111111" />
+        <entry key="..\:/AndroidPrograms/IMCApplication/app/src/main/res/drawable/bt_blue_2.xml" value="0.3611111111111111" />
+        <entry key="..\:/AndroidPrograms/IMCApplication/app/src/main/res/drawable/bt_style_write.xml" value="0.3828125" />
+        <entry key="..\:/AndroidPrograms/IMCApplication/app/src/main/res/drawable/radio_bt_left_checked.xml" value="0.3828125" />
+        <entry key="..\:/AndroidPrograms/IMCApplication/app/src/main/res/drawable/radio_bt_left_select.xml" value="0.3769230769230769" />
+        <entry key="..\:/AndroidPrograms/IMCApplication/app/src/main/res/drawable/radio_bt_left_unchecked.xml" value="0.3769230769230769" />
+        <entry key="..\:/AndroidPrograms/IMCApplication/app/src/main/res/drawable/radio_bt_right_checked.xml" value="0.3769230769230769" />
+        <entry key="..\:/AndroidPrograms/IMCApplication/app/src/main/res/drawable/radio_bt_right_select.xml" value="0.3769230769230769" />
+        <entry key="..\:/AndroidPrograms/IMCApplication/app/src/main/res/drawable/radio_bt_right_unchecked.xml" value="0.3769230769230769" />
+        <entry key="..\:/AndroidPrograms/IMCApplication/app/src/main/res/drawable/shape_edittext_necessidade.xml" value="0.3828125" />
+        <entry key="..\:/AndroidPrograms/IMCApplication/app/src/main/res/drawable/shape_edittext_necessidade_right.xml" value="0.3828125" />
+        <entry key="..\:/AndroidPrograms/IMCApplication/app/src/main/res/layout/activity_imcactivity.xml" value="0.36666666666666664" />
+        <entry key="..\:/AndroidPrograms/IMCApplication/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
+        <entry key="..\:/AndroidPrograms/IMCApplication/app/src/main/res/layout/activity_necessidade_calorica.xml" value="0.36666666666666664" />
+        <entry key="..\:/AndroidPrograms/IMCApplication/app/src/main/res/layout/bt_style_branco.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

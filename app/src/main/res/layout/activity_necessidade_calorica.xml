@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NecessidadeCalorica"
+    android:orientation="vertical"
+    android:background="@android:color/holo_blue_light"
+
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="20dp"
+        android:backgroundTint="@android:color/holo_green_dark">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Descubra agora sua"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Necesidade Calorica"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="24sp"/>
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="por www.alvesgleibson.com"
+                android:textAlignment="center"
+                android:layout_marginTop="8dp"
+                android:textSize="12sp"
+                android:layout_marginBottom="8dp"/>
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="20dp">
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radio_feminino"
+                        android:text="Feminino"
+                        android:checked="true"
+                        android:background="@drawable/radio_bt_left_select"
+                        style="@style/style_bt_sexo"/>
+
+                    <RadioButton
+                        android:id="@+id/radio_masculino"
+                        style="@style/style_bt_sexo"
+                        android:text="Masculino"
+                        android:background="@drawable/radio_bt_right_select"/>
+
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout style="@style/style_linear_edit_text">
+
+                    <TextView
+                        android:text="Idade:"
+                        android:paddingStart="16dp"
+                        android:layout_gravity="start"
+                        android:background="@drawable/shape_edittext_necessidade_left"
+                        style="@style/style_edit_texto" />
+                    <EditText
+                        android:id="@+id/edit_txt_idade"
+                        style="@style/style_edit_texto"
+                        android:layout_gravity="end"
+                        android:inputType="number"
+                        android:textAlignment="textEnd"
+                        android:paddingRight="40dp"
+                        android:background="@drawable/shape_edittext_necessidade_right"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout style="@style/style_linear_edit_text">
+
+                    <TextView
+                        android:text="Altura (CM):"
+                        android:paddingStart="16dp"
+                        android:layout_gravity="start"
+                        android:background="@drawable/shape_edittext_necessidade_left"
+                        style="@style/style_edit_texto" />
+                    <EditText
+                        android:id="@+id/edit_txt_altura"
+                        style="@style/style_edit_texto"
+                        android:layout_gravity="end"
+                        android:inputType="number"
+                        android:textAlignment="textEnd"
+                        android:paddingRight="40dp"
+                        android:background="@drawable/shape_edittext_necessidade_right"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout style="@style/style_linear_edit_text">
+
+                    <TextView
+                        android:text="Peso atual (kg):"
+                        android:paddingStart="16dp"
+                        android:layout_gravity="start"
+                        android:background="@drawable/shape_edittext_necessidade_left"
+                        style="@style/style_edit_texto" />
+                    <EditText
+                        android:id="@+id/edit_txt_peso"
+                        style="@style/style_edit_texto"
+                        android:layout_gravity="end"
+                        android:inputType="number"
+                        android:textAlignment="textEnd"
+                        android:paddingRight="40dp"
+                        android:background="@drawable/shape_edittext_necessidade_right"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bt_blue_2"
+                android:textColor="@color/white"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:text="Calcular NCD"/>
+
+            <TextView
+                android:id="@+id/txt_resultado_ncd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textStyle="bold"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="30sp"
+                android:layout_gravity="center"
+                android:textColor="@color/white" />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
